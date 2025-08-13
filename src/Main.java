@@ -1,15 +1,90 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
-
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
-        }
+        System.out.println();
+        System.out.println("Task 1");
+        int in = 1;
+        byte byt = 5;
+        short sho = 25;
+        long lon = 50L;
+        float flo = 75.0f;
+        double dou = 100.0;
+        System.out.println("Значение переменной in с типом int равно " + in);
+        System.out.println("Значение переменной byt с типом byte равно " + byt);
+        System.out.println("Значение переменной sho с типом short равно " + sho);
+        System.out.println("Значение переменной lon с типом long равно " + lon);
+        System.out.println("Значение переменной flo с типом float равно " + flo);
+        System.out.println("Значение переменной dou с типом double равно " + dou);
+        System.out.println();
+        System.out.println("Task 2");
+        float floSec = 27.12f;
+        long lonSec = 987678965549L;
+        short shoSec = 2786;
+        int inSec = 569;
+        short shoThird = -159;
+        int less = 27897;
+        byte bytSec = 67;
+        System.out.println();
+        System.out.println("Task 3");
+        int lp = 23, as = 27, ea = 30, paper = 480;
+        double d = paper / (lp + as + ea);
+        System.out.println("На каждого ученика рассчитано " + d + " листов бумаги.");
+        System.out.println();
+        System.out.println("Task 4");
+        int bot = 16;
+        int time = 2;
+        int bpm = bot / time;
+        int twenty = bpm * 20;
+        int bph = bpm * 60;
+        int day = bph * 24;
+        int threeDays = day * 3;
+        int month = day * 30;
+        System.out.println("За 20 минут машина произвела " + twenty + " штук бутылок");
+        System.out.println("За 1 сутки машина произвела " + day + " штук бутылок");
+        System.out.println("За 3 дня машина произвела " + threeDays + " штук бутылок");
+        System.out.println("За 1 месяц машина произвела " + month + " штук бутылок");
+        System.out.println();
+        System.out.println("Task 5");
+        int sum = 120;
+        int white = 2;
+        int brown = 4;
+        int classes = sum / (white + brown);
+        int sumWhite = classes * white;
+        int sumBrown = classes * brown;
+        System.out.println("В школе, где " + classes + " классов, нужно " + sumWhite + " банок белой краски и " + sumBrown + " банок коричневой краски");
+        System.out.println();
+        System.out.println("Task 6");
+        int banan = 5;
+        int weightBanan = 80;
+        int milk = 2;
+        int weightMilk = 105;
+        int icecream = 2;
+        int weightIcecream = 100;
+        int egg = 4;
+        int weightEgg = 70;
+        int weightBreakfast = (weightBanan * banan + weightMilk * milk + weightIcecream * icecream + weightEgg * egg);
+        float tottalWeight = weightBreakfast * 1.0f / 1000;
+        System.out.println("Вес завтрака составил " + weightBreakfast + " грамм, или " + tottalWeight + " килограмм.");
+        System.out.println();
+        System.out.println("Task 7");
+        int weight = 7;
+        float min1 = 0.25f;
+        float min2 = 0.5f;
+        float firstCase = weight / min1;
+        float secondCase = weight / min2;
+        float middle = (firstCase + secondCase) / 2;
+        System.out.println(firstCase + " дней уйдет на похудение, если спортсмен будет терять каждый день по 250 грамм;");
+        System.out.println(secondCase + " дней уйдет на похудение, если спортсмен будет терять каждый день по 500 грамм;");
+        System.out.println(middle + " дней в среднем понадобится спортсмену в своей весовой категории, чтобы сбросить 7 кг.");
+        System.out.println();
+        System.out.println("Task 8");
+        int masha = 67760;
+        int den = 83690;
+        int kris = 76230;
+        int mashaNext = masha / 10;
+        int denNext = den / 10;
+        int krisNext = kris / 10;
+        System.out.println("Маша теперь получает " + (mashaNext + masha) + " рублей. Годовой доход вырос на " + (mashaNext * 12) + " рублей");
+        System.out.println("Денис теперь получает " + (denNext + den) + " рублей. Годовой доход вырос на " + (denNext * 12) + " рублей");
+        System.out.println("Кристина теперь получает " + (krisNext + kris) + " рублей. Годовой доход вырос на " + (krisNext * 12) + " рублей");
     }
 }
